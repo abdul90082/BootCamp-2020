@@ -34,4 +34,4 @@ jobs:
       - name: Setup Surge
         run: npm install --global surge
       - name: Execute Deployment with Surge
-        run: surge ./ static-webpage.surge.sh/ --token ${ { secrets.SIMPLEWEB_SURGE_TOKEN} }
+        run: surge ./ static-webpage.surge.sh --token ${ { secrets.SIMPLEWEB_SURGE_TOKEN} }
